@@ -1,0 +1,211 @@
+:root {
+    --color1: #00ABB3;
+    --color2: #3C4048;
+    --color3: #B2B2B2;
+    --color4: #EAEAEA;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@400;600;800 & display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header do Site */
+
+header {
+    display: none;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+header img {
+    width: 150px;
+}
+
+/* Main do Site */
+
+.container_main {
+    display: none;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(33, 40, 50);
+    margin-bottom: 20px;
+}
+
+.container_informacoes {
+    padding: 20px;
+}
+
+.bloco_info {
+    background-color: black;
+    height: 65px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 15px 0px 12px 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.434);
+}
+
+.nome_descricao {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.valor_descricao {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+    margin-left: auto;
+}
+
+/* Container Vendas */
+
+.container_vendas {
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.bloco_vendas {
+    display: inline-table;
+    width: 85%;
+    height: 80px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px auto;
+    transition: .4s ease;
+}
+
+.bloco_vendas:hover {
+    height: 87px;
+    width: 90%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.609);
+}
+
+.div_img {
+    width: 50px;
+    height: 50px;
+    padding: 0px 0px 0px 10px;
+}
+
+.div_img img {
+    width: 50px;
+}
+
+.info_venda {
+    display: table;
+}
+
+.info_venda p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    padding: 5px 0px 5px 20px;
+}
+
+.info_div_top {
+    display: flex;
+}
+
+.info_div_bottom {
+    display: flex;
+}
+
+hr {
+    width: 90%;
+    margin: 2px 0px 2px 20px;
+    background: linear-gradient(to left, rgb(255, 152, 240), rgb(41, 165, 255));
+    height: 4px;
+    border: 0px solid black;
+}
+
+/* Container Segurança */
+
+.container_seguranca {
+    width: 350px;
+    height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 70px auto;
+    background-color: #1d1f23;
+}
+
+.container_seguranca input {
+    border: none;
+    outline: none;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 40px 0px 0px 19px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    width: 190px;
+}
+
+.container_seguranca button {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #00ABB3;
+    padding: 8px 17px;
+    border-radius: 5px;
+    transition: .3s ease;
+    margin-left: 14px;
+}
+
+.container_seguranca button:hover {
+    background-color: #00ABB3;
+}
+
+.container_seguranca h1 {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.container_seguranca img {
+    width: 130px;
+    padding: 20px 0px 10px 20px;
+}
+
+
+/* Footer do Site */
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+footer p {
+    text-align: center;
+    color: var(--color2);
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0px;
+}

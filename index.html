@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daveler</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo-daveler-icon.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/design.css">
+
+    <!-- JS -->
+    <script src="js/system.js" defer></script>
+    <script src="js/system-data.js" defer></script>
+</head>
+<body>
+    <div class="container_seguranca">
+        <h1>Password</h1>
+        <input type="text" class="inputUser" placeholder="Password">
+        <button onclick="Verificar()" id="btn_confirm">Confirm</button>
+        <img src="images/logo-high-security.png" alt="Logo">
+    </div>
+
+    <header>
+        <nav>
+            <img src="images/logo-daveler.png" alt="Logo Daveler">
+        </nav>
+    </header>
+    <main class="container_main">
+        <div class="container_informacoes">
+
+            <div class="bloco_info">
+                <p class="nome_descricao">
+                    Faturamento
+                </p>
+                <p class="valor_descricao" id="faturamento_mensal">
+                    
+                </p>
+            </div>
+
+            <div class="bloco_info">
+                <p class="nome_descricao">
+                    Vendas
+                </p>
+                <p class="valor_descricao" id="vendas_feitas">
+                    
+                </p>
+            </div>
+
+            <div class="bloco_info">
+                <p class="nome_descricao">
+                    Total
+                </p>
+                <p class="valor_descricao" id="total_faturamento">
+                    
+                </p>
+            </div>
+        </div>
+    </main>
+    <div class="container_vendas">
+        
+    </div>
+    <footer>
+        <p>
+            Todos os direitos reservados - Daveler - 2022 &copy;
+        </p>
+    </footer>
+</body>
+</html>
